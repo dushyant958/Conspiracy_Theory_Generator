@@ -14,50 +14,6 @@ This project is an end-to-end *Conspiracy Theory Generator* powered by a Retriev
 ![LLM](https://img.shields.io/badge/LLM-Mistral%207B-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-
----
-
-## 🗂️ Project Directory Structure  
-
-
-config/
- └── rag_config.json
- 
-data/
- └── (Your raw, processed, vectorized data)
- 
-logs/
- └── (Log files)
-
-src/
- ── api/                 → FastAPI / Flask code for endpoints
- ── database/           → VectorDB / SQLite / DB related logic
- ── factcheck/          → Fact-checking pipeline/modules
- ── frontend/           → Streamlit / UI code
- ── llm/                → LLM interaction / Prompt handling / RAG pipeline
- ── monitoring/         → Logging / Tracing / Health checks
- ── preprocessing/      → Cleaning / Text Processing / Chunking
- ── rag/                → Core RAG logic / Retrieval-Augmentation
- ── scrapers/           → All Data Scrapers
-        ├── government_docs_scraper.py
-        ├── news_scraper.py
-        ├── orchestrator.py         # Master controller to trigger scrapers
-        ├── reddit_scraper.py
-        └── wikipedia_scraper.py
- 
- ── tests/                  → Unit & Integration tests
- 
- ── venv/                   → Python Virtual Environment
- 
- ── .env                    → Environment Variables
- 
- ── .gitignore              → Git Ignore Rules
- 
- ── Running API and streamlit server.txt   → Instructions to run project locally
-
-
-
-
 ---
 
 ## 🔑 APIs Used  
