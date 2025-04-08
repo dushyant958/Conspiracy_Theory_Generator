@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-03-29T17:28:04.110629",
+  "uptime_seconds": 300.00181770324707,
+  "request_count": 6,
+  "error_count": 0,
+  "error_rate_percent": 0.0,
+  "average_response_time": 2.168701489766439,
+  "system_metrics": {
+    "cpu_percent": 0.0,
+    "memory_percent": 83.2,
+    "disk_percent": 11.3,
+    "connections": 97
+  }
+}

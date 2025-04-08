@@ -1,0 +1,242 @@
+2025-03-29 17:22:58,454 [INFO] Initialized FAISS vector database with dimension 384
+2025-03-29 17:22:58,454 [INFO] Initialized Vector Database Manager with faiss backend
+2025-03-29 17:23:03,900 [INFO] LLM Manager initialized with model: gpt-3.5-turbo
+2025-03-29 17:23:03,901 [INFO] Fact Checker initialized with model: gpt-4
+2025-03-29 17:23:03,902 [INFO] RAG Pipeline initialized successfully
+2025-03-29 17:23:03,902 [INFO] Successfully loaded RAG pipeline from config: config/rag_config.json
+2025-03-29 17:23:03,917 [INFO] Metrics collector initialized
+2025-03-29 17:23:04,103 [INFO] Metrics collector initialized
+2025-03-29 17:27:21,970 [INFO] Request req_1743249441969: What really happened at Area 51
+...
+2025-03-29 17:27:21,971 [INFO] Processing query: What really happened at Area 51
+
+2025-03-29 17:27:21,972 [ERROR] Error generating embedding (attempt 1/3): 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:21,973 [INFO] Retrying in 2 seconds...
+2025-03-29 17:27:23,974 [ERROR] Error generating embedding (attempt 2/3): 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:23,974 [INFO] Retrying in 4 seconds...
+2025-03-29 17:27:27,975 [ERROR] Error generating embedding (attempt 3/3): 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:27,976 [ERROR] Max retries reached, returning empty embedding
+2025-03-29 17:27:28,117 [ERROR] Error searching in FAISS: 
+2025-03-29 17:27:28,117 [INFO] Retrieved 0 documents from vector database
+2025-03-29 17:27:28,117 [INFO] Formatted context with 0 documents (0 chars)
+2025-03-29 17:27:28,380 [INFO] Generating text with 143 input tokens
+2025-03-29 17:27:28,381 [ERROR] Error generating text (attempt 1/3): 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:28,382 [INFO] Retrying in 2 seconds...
+2025-03-29 17:27:30,382 [INFO] Generating text with 143 input tokens
+2025-03-29 17:27:30,383 [ERROR] Error generating text (attempt 2/3): 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:30,414 [INFO] Retrying in 4 seconds...
+2025-03-29 17:27:34,415 [INFO] Generating text with 143 input tokens
+2025-03-29 17:27:34,416 [ERROR] Error generating text (attempt 3/3): 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:34,417 [ERROR] Max retries reached, returning error message
+2025-03-29 17:27:34,418 [ERROR] Error extracting claims: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:34,419 [ERROR] Error verifying claim: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:34,420 [ERROR] Error verifying claim: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:34,420 [ERROR] Error annotating theory: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:27:34,421 [INFO] Fact-checked theory with score 0.50 in 0.00s
+2025-03-29 17:27:34,422 [INFO] Fact-checked response with validity score: 0.5
+2025-03-29 17:27:34,423 [INFO] Completed query processing in 12.45 seconds
+2025-03-29 17:28:03,925 [INFO] Metrics summary: uptime=300.01s, requests=1, errors=0 (0.00%), avg_response_time=0.000s
+2025-03-29 17:28:04,110 [INFO] Metrics summary: uptime=300.00s, requests=6, errors=0 (0.00%), avg_response_time=2.169s
+2025-03-29 17:33:03,936 [INFO] Metrics summary: uptime=600.02s, requests=1, errors=0 (0.00%), avg_response_time=0.000s
+2025-03-29 17:33:04,251 [INFO] Metrics summary: uptime=600.14s, requests=11, errors=0 (0.00%), avg_response_time=1.188s
+2025-03-29 17:38:03,958 [INFO] Metrics summary: uptime=900.05s, requests=1, errors=0 (0.00%), avg_response_time=0.000s
+2025-03-29 17:38:05,275 [INFO] Metrics summary: uptime=900.17s, requests=11, errors=0 (0.00%), avg_response_time=1.188s
+2025-03-29 17:38:20,148 [INFO] Initialized FAISS vector database with dimension 384
+2025-03-29 17:38:20,149 [INFO] Initialized Vector Database Manager with faiss backend
+2025-03-29 17:38:21,756 [INFO] LLM Manager initialized with model: gpt-3.5-turbo
+2025-03-29 17:38:21,758 [INFO] Fact Checker initialized with model: gpt-4
+2025-03-29 17:38:21,758 [INFO] RAG Pipeline initialized successfully
+2025-03-29 17:38:21,759 [INFO] Successfully loaded RAG pipeline from config: config/rag_config.json
+2025-03-29 17:38:21,760 [INFO] Metrics collector initialized
+2025-03-29 17:38:21,776 [INFO] Metrics collector initialized
+2025-03-29 17:38:55,918 [INFO] Initialized FAISS vector database with dimension 384
+2025-03-29 17:38:55,918 [INFO] Initialized Vector Database Manager with faiss backend
+2025-03-29 17:38:57,345 [INFO] LLM Manager initialized with model: gpt-3.5-turbo
+2025-03-29 17:38:57,346 [INFO] Fact Checker initialized with model: gpt-4
+2025-03-29 17:38:57,347 [INFO] RAG Pipeline initialized successfully
+2025-03-29 17:38:57,347 [INFO] Successfully loaded RAG pipeline from config: config/rag_config.json
+2025-03-29 17:38:57,349 [INFO] Metrics collector initialized
+2025-03-29 17:38:57,363 [INFO] Metrics collector initialized
+2025-03-29 17:40:28,790 [INFO] Request req_1743250228790: What really happened at Area 51...
+2025-03-29 17:40:28,791 [INFO] Processing query: What really happened at Area 51
+2025-03-29 17:40:30,131 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:30,132 [INFO] Retrying request to /embeddings in 0.415140 seconds
+2025-03-29 17:40:31,294 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:31,295 [INFO] Retrying request to /embeddings in 0.943897 seconds
+2025-03-29 17:40:32,759 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:32,761 [ERROR] Error generating embedding (attempt 1/3): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-29 17:40:32,762 [INFO] Retrying in 2 seconds...
+2025-03-29 17:40:35,481 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:35,483 [INFO] Retrying request to /embeddings in 0.472865 seconds
+2025-03-29 17:40:36,499 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:36,871 [INFO] Retrying request to /embeddings in 0.956732 seconds
+2025-03-29 17:40:38,327 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:38,329 [ERROR] Error generating embedding (attempt 2/3): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-29 17:40:38,329 [INFO] Retrying in 4 seconds...
+2025-03-29 17:40:43,889 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:43,890 [INFO] Retrying request to /embeddings in 0.425981 seconds
+2025-03-29 17:40:45,213 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:45,214 [INFO] Retrying request to /embeddings in 0.994372 seconds
+2025-03-29 17:40:46,804 [INFO] HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:46,806 [ERROR] Error generating embedding (attempt 3/3): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-29 17:40:46,872 [ERROR] Max retries reached, returning empty embedding
+2025-03-29 17:40:46,938 [ERROR] Error searching in FAISS: 
+2025-03-29 17:40:46,939 [INFO] Retrieved 0 documents from vector database
+2025-03-29 17:40:46,958 [INFO] Formatted context with 0 documents (0 chars)
+2025-03-29 17:40:47,045 [INFO] Generating text with 143 input tokens
+2025-03-29 17:40:47,327 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:47,328 [INFO] Retrying request to /chat/completions in 0.443290 seconds
+2025-03-29 17:40:48,056 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:48,057 [INFO] Retrying request to /chat/completions in 0.772829 seconds
+2025-03-29 17:40:49,134 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:49,136 [ERROR] Error generating text (attempt 1/3): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-29 17:40:49,137 [INFO] Retrying in 2 seconds...
+2025-03-29 17:40:51,139 [INFO] Generating text with 143 input tokens
+2025-03-29 17:40:51,428 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:51,430 [INFO] Retrying request to /chat/completions in 0.436607 seconds
+2025-03-29 17:40:52,196 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:52,197 [INFO] Retrying request to /chat/completions in 0.795822 seconds
+2025-03-29 17:40:53,299 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:53,301 [ERROR] Error generating text (attempt 2/3): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-29 17:40:53,301 [INFO] Retrying in 4 seconds...
+2025-03-29 17:40:57,302 [INFO] Generating text with 143 input tokens
+2025-03-29 17:40:57,592 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:57,593 [INFO] Retrying request to /chat/completions in 0.491156 seconds
+2025-03-29 17:40:58,382 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:58,383 [INFO] Retrying request to /chat/completions in 0.995744 seconds
+2025-03-29 17:40:59,653 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-29 17:40:59,656 [ERROR] Error generating text (attempt 3/3): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-03-29 17:40:59,681 [ERROR] Max retries reached, returning error message
+2025-03-29 17:40:59,682 [ERROR] Error extracting claims: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:40:59,683 [ERROR] Error verifying claim: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:40:59,684 [ERROR] Error verifying claim: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:40:59,685 [ERROR] Error annotating theory: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-29 17:40:59,685 [INFO] Fact-checked theory with score 0.50 in 0.00s
+2025-03-29 17:40:59,709 [INFO] Fact-checked response with validity score: 0.5
+2025-03-29 17:40:59,710 [INFO] Completed query processing in 30.92 seconds
