@@ -6,52 +6,54 @@
 ## ⚡ About the Project
 
 This project is an end-to-end *Conspiracy Theory Generator* powered by a Retrieval-Augmented Generation (RAG) Pipeline. The system scrapes verified sources like government docs (CIA & FBI), Reddit, Wikipedia, and News articles — processes the data, and generates mind-blowing conspiracy theories using OpenAI's GPT-3.5 Turbo model.
+
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
 ![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented-blueviolet)
 ![LLM](https://img.shields.io/badge/LLM-Mistral%207B-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+
 ---
 
 ## 🗂️ Project Directory Structure  
 
-**project-root/
-│
-├── config/
-│   └── rag_config.json
-│
-├── data/
-│   └── (Your raw, processed, vectorized data)
-│
-├── logs/
-│   └── (Log files)
-│
-├── src/
-│   ├── api/                 → FastAPI / Flask code for endpoints
-│   ├── database/           → VectorDB / SQLite / DB related logic
-│   ├── factcheck/          → Fact-checking pipeline/modules
-│   ├── frontend/           → Streamlit / UI code
-│   ├── llm/                → LLM interaction / Prompt handling / RAG pipeline
-│   ├── monitoring/         → Logging / Tracing / Health checks
-│   ├── preprocessing/      → Cleaning / Text Processing / Chunking
-│   ├── rag/                → Core RAG logic / Retrieval-Augmentation
-│   └── scrapers/           → All Data Scrapers
-│       ├── government_docs_scraper.py
-│       ├── news_scraper.py
-│       ├── orchestrator.py         # Master controller to trigger scrapers
-│       ├── reddit_scraper.py
-│       └── wikipedia_scraper.py
-│
-├── tests/                  → Unit & Integration tests
-│
-├── venv/                   → Python Virtual Environment
-│
-├── .env                    → Environment Variables
-│
-├── .gitignore              → Git Ignore Rules
-│
-└── Running API and streamlit server.txt   → Instructions to run project locally**
+
+config/
+ └── rag_config.json
+ 
+data/
+ └── (Your raw, processed, vectorized data)
+ 
+logs/
+ └── (Log files)
+
+src/
+ ── api/                 → FastAPI / Flask code for endpoints
+ ── database/           → VectorDB / SQLite / DB related logic
+ ── factcheck/          → Fact-checking pipeline/modules
+ ── frontend/           → Streamlit / UI code
+ ── llm/                → LLM interaction / Prompt handling / RAG pipeline
+ ── monitoring/         → Logging / Tracing / Health checks
+ ── preprocessing/      → Cleaning / Text Processing / Chunking
+ ── rag/                → Core RAG logic / Retrieval-Augmentation
+ ── scrapers/           → All Data Scrapers
+        ├── government_docs_scraper.py
+        ├── news_scraper.py
+        ├── orchestrator.py         # Master controller to trigger scrapers
+        ├── reddit_scraper.py
+        └── wikipedia_scraper.py
+ 
+ ── tests/                  → Unit & Integration tests
+ 
+ ── venv/                   → Python Virtual Environment
+ 
+ ── .env                    → Environment Variables
+ 
+ ── .gitignore              → Git Ignore Rules
+ 
+ ── Running API and streamlit server.txt   → Instructions to run project locally
 
 
 
@@ -144,5 +146,3 @@ This project is an end-to-end *Conspiracy Theory Generator* powered by a Retriev
 PRs and suggestions are welcome! Feel free to fork, enhance, and create your own crazy theory generator!
 
 ---
-
-
