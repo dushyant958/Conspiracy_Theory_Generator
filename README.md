@@ -6,12 +6,17 @@
 ## ⚡ About the Project
 
 This project is an end-to-end *Conspiracy Theory Generator* powered by a Retrieval-Augmented Generation (RAG) Pipeline. The system scrapes verified sources like government docs (CIA & FBI), Reddit, Wikipedia, and News articles — processes the data, and generates mind-blowing conspiracy theories using OpenAI's GPT-3.5 Turbo model.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
+![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented-blueviolet)
+![LLM](https://img.shields.io/badge/LLM-Mistral%207B-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
 ## 🗂️ Project Directory Structure  
 
-project-root/
+**project-root/
 │
 ├── config/
 │   └── rag_config.json
@@ -46,7 +51,7 @@ project-root/
 │
 ├── .gitignore              → Git Ignore Rules
 │
-└── Running API and streamlit server.txt   → Instructions to run project locally
+└── Running API and streamlit server.txt   → Instructions to run project locally**
 
 
 
